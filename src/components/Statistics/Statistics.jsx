@@ -1,4 +1,4 @@
-import { propTypes } from 'prop-types';
+import PropTypes from 'prop-types';
 
 export const Statistics = ({
   good,
@@ -29,9 +29,9 @@ export const Statistics = ({
 };
 
 Statistics.propTypes = {
-  good: propTypes.number.isRequired,
-  neutral: propTypes.number.isRequired,
-  bad: propTypes.number.isRequired,
-  total: propTypes.number.isRequired,
-  positivePercentage: propTypes.number.isRequired,
+  good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  positivePercentage: PropTypes.number.isRequired,
 };
